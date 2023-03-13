@@ -1,23 +1,33 @@
-.Nosotros__contactos{
-    margin: 10px;
-    padding: 10px;
- }
-
-.tamaño-mapa{
-    width: 40vh;
-    height: 30vh;
-}
- 
-@media only screen and (min-width:600px) {
-    .tamaño-mapa {
-        width: 80vh;
-        height: 60vh;
+.nosotros{
+   margin-left: 07%;}
+       .Nosotros__contactos{
+           margin: 10px;
+           padding: 10px;
+              .tamaño-mapa{
+                width: 40vh;
+                height: 30vh;
+         }
     }
+
+
+@media only screen and (min-width:600px) {
+     .Nosotros__contactos{
+        margin: 10px;
+        padding:10px;
+           .tamaño-mapa{
+             width: 85vh;
+             height: 55vh;
+      }
+   }
 }
 
 @media only screen and (min-width:1200px) {
-    .tamaño-mapa {
-        width: 100vh;
-        height: 80vh;
-    }
-    }
+      .Nosotros__contactos{
+            margin:10px;    
+            padding:10px;
+              .tamaño-mapa{
+                 width: 90vh;
+                 height: 60vh;
+     }
+  }
+}

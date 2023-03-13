@@ -1,20 +1,32 @@
-.redes {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    padding-right: 38px;
-}
-
-.redes__iconos {
-    list-style: none;
-    padding: 10px;
-}
-
-.derechosres{
-    text-align: center;
-}
-
-.wp {
-    display: none;
+ .derechosres{
+     text-align: center; }
+         .redes {
+              display: flex;
+              flex-direction: row;
+              align-content: center;
+              justify-content: center;
+              padding-right: 38px;
+              animation: float infinite 4s ease-in-out;
+              @keyframes float {
+                0%{transform: translateY(0);}
+                50%{transform: translateY(-10px);}
+                100%{transform: translateY(0);} }         
+                    .redes__iconos {
+                        list-style: none;
+                        padding: 10px;
+                           .wp {
+                             display: none;}
+                  }
+         }
+       
+      
+@media only screen and (min-width:600px) {
+    .wp {
+        display: block;
+        height: 50px;
+        width: 50px;
+        position: fixed;
+        bottom: 30px;
+        right: 50px;
+    }
 }

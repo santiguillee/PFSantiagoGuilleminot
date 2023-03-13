@@ -1,12 +1,25 @@
 .puppy {
     color: $color-letra;
+         .contenido__video {
+             align-self: center;
+             padding: 10px;
+             width: 80vw;
+             height: 70vh;
+             margin: 20px auto;
+             border-radius: 10px;
+   }
 }
 
-.contenido__video {
-    align-self: center;
-    padding: 10px;
-    width: 80vw;
-    height: 70vh;
-    margin: 20px auto;
-    border-radius: 10px;
+@media only screen and (min-width:600px) {
+    .contenido__video {
+        height: 70vh;
+        width: 70vw;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .contenido__video {
+        height: 80vh;
+        width: 70vw;
+    }
 }
