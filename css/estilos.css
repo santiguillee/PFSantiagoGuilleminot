@@ -9,7 +9,7 @@
   src: url(../assets/fonts/Ubuntu-Medium.ttf); }
 
 .contenedor_general {
-  background-image: linear-gradient(to right bottom, #ffc0cb, #febcd3, #f9b8dc, #f1b6e7, #e4b6f2);
+  background-color: pink;
   width: 100vw;
   height: 100%;
   font-family: 'ubuntu' , sans-serif; }
@@ -101,14 +101,20 @@
   .sesion .boton--iniciar {
     text-shadow: #b33b4f;
     color: #b33b4f;
-    border: 1px solid black; }
+    border: 1px solid black;
+    background-color: white;
+    text-decoration: none; }
   .sesion .boton--aceptar {
     text-shadow: green;
     color: green;
+    background-color: white;
+    text-decoration: none;
     border: 1px solid black; }
   .sesion .boton--cancelar {
     text-shadow: red;
     color: red;
+    background-color: white;
+    text-decoration: none;
     border: 1px solid black; }
 
 .derechosres {
@@ -129,11 +135,13 @@
     transform: translateY(-10px); }
   100% {
     transform: translateY(0); } }
-  .redes .redes__iconos {
-    list-style: none;
-    padding: 10px; }
-    .redes .redes__iconos .wp {
-      display: none; }
+
+.redes__iconos {
+  list-style: none;
+  padding: 10px; }
+
+.wp {
+  display: none; }
 
 @media only screen and (min-width: 600px) {
   .wp {

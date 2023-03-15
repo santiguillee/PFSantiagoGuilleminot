@@ -1,4 +1,5 @@
- .derechosres{
+ 
+   .derechosres{
      text-align: center; }
          .redes {
               display: flex;
@@ -10,15 +11,12 @@
               @keyframes float {
                 0%{transform: translateY(0);}
                 50%{transform: translateY(-10px);}
-                100%{transform: translateY(0);} }         
+                100%{transform: translateY(0);}   }  }     
                     .redes__iconos {
                         list-style: none;
-                        padding: 10px;
-                           .wp {
-                             display: none;}
-                  }
-         }
-       
+                        padding: 10px;}
+                         .wp {display: none;}
+                        
       
 @media only screen and (min-width:600px) {
     .wp {
